@@ -1,0 +1,178 @@
+Program Title: Replicate a Zine server
+
+Age Group: Middle School to Adult
+
+
+Promotional Description
+
+"A Zine is a small-circulation self-published work of original or appropriated texts and images, usually reproduced via a copy machine. Zines are the product of either a single person or of a very small group, and are popularly photocopied into physical prints for circulation" (from Wikipedia: https://en.wikipedia.org/wiki/Zine).
+
+A Zine server is a device with network-attached or removable storage, operating a simple website with Zines and information and resources relevant to a local Zine community. A Zine server can run on any new, used, or discarded laptop, phone, or "Internet of Things" device. 
+
+Using the Austin Public Library Zine collection server as a model, this workshop facilitates replication and adaptation of this system onto other media. Participants may bring their own laptops and small devices for upgrading/upcycling, and additionally the Innovation Lab will provide laptops for use during the workshop and (while supplies last) small devices such as a Raspberry Pi with a replicated Zine server ready to go.
+
+
+Learning Objectives | Outcomes
+
+At the end of the program, participants will be able to:
+
+1. Flash an operating system onto a Raspberry Pi
+
+2. Connect to the Raspberry Pi directly with mouse, keyboard, hdmi monitor and also over the network from a terminal
+
+3. Install a webserver on the Raspberry Pi or laptop
+
+4. Clone the APL Zines repository
+
+5. Add, manage digital and paper-based Zine submissions 
+
+6. Adapt the webserver for a linked community 
+
+7. Connect and share with fellow Zine and upcycling enthusiasts
+
+8. Use the Zine server reciprocally to improve itself and its community
+
+
+Correlating Standards
+
+Standards used: 
+Texas Administrative Code
+CHAPTER 126	TEXAS ESSENTIAL KNOWLEDGE AND SKILLS FOR TECHNOLOGY APPLICATIONS
+SUBCHAPTER B	MIDDLE SCHOOL
+RULE §126.14	Technology Applications, Grade 6, Beginning with School Year 2012-2013
+
+
+https://texreg.sos.state.tx.us/public/readtac$ext.TacPage?sl=T&app=9&p_dir=N&p_rloc=153057&p_tloc=&p_ploc=1&pg=13&p_tac=&ti=19&pt=2&ch=126&rl=16
+
+(1) Creativity and innovation. The student uses creative thinking and innovative processes to construct knowledge, generate new ideas, and create products. The student is expected to:
+
+(A) identify, create, and use files in various formats such as text, raster and vector graphics, video, and audio files;
+
+(B) create original works as a means of personal or group expression;
+
+
+(2) Communication and collaboration. The student collaborates and communicates both locally and globally to reinforce and promote learning. The student is expected to:
+
+(A) participate in personal learning networks to collaborate with peers, experts, or others using digital tools such as blogs, wikis, audio/video communication, or other emerging technologies;
+
+(B) communicate effectively with multiple audiences using a variety of media and formats; and
+
+(C) read and discuss examples of technical writing.
+
+
+(3) Research and information fluency. The student acquires, analyzes, and manages content from digital resources. The student is expected to:
+
+(C) select and evaluate various types of digital resources for accuracy and validity; and
+
+(D) process data and communicate results.
+
+
+(4) Critical thinking, problem solving, and decision making. The student makes informed decisions by applying critical-thinking and problem-solving skills. The student is expected to:
+
+(A) identify and define relevant problems and significant questions for investigation;
+
+(B) plan and manage activities to develop a solution, design a computer program, or complete a project;
+
+(C) collect and analyze data to identify solutions and make informed decisions;
+
+(D) use multiple processes and diverse perspectives to explore alternative solutions;
+
+(E) make informed decisions and support reasoning; and
+
+(F) transfer current knowledge to the learning of newly encountered technologies.
+
+
+(6) Technology operations and concepts. The student demonstrates a thorough understanding of technology concepts, systems, and operations. The student is expected to:
+
+(C) identify, understand, and use operating systems;
+
+(D) understand and use software applications, including selecting and using software for a defined task;
+
+(E) identify, understand, and use hardware systems;
+
+(F) understand troubleshooting techniques such as restarting systems, checking power issues, resolving software compatibility, verifying network connectivity, connecting to remote resources, and modifying display properties;
+
+(G) demonstrate effective file management strategies such as file naming conventions, location, backup, hierarchy, folder structure, file conversion, tags, labels, and emerging digital organizational strategies;
+
+(H) discuss how changes in technology throughout history have impacted various areas of study;
+
+(I) discuss the relevance of technology as it applies to college and career readiness, life-long learning, and daily living;
+
+(J) use a variety of local and remote input sources;
+
+(iv) a digital publication using relevant publication standards;
+
+(N) integrate two or more technology tools to create a new digital product.
+
+
+Materials Needed
+
+At the Central Library 5th Floor: attendees will use available desktop computers, laptops for on-site use, and (as available) Raspberry Pi (small network device).
+
+This program could happen at any branch and is also compatible with participants who bring their own devices for upgrading and upcycling.
+
+Software needed: We will install the Raspbian OS, PHP, Apache2, Zine website code (all free)
+
+
+Estimated Cost
+
+Materials: Zero new costs. This program utilizes existing resources, participants' own devices, and also upcycled devices that would otherwise go to waste. Zine pages may be printed on copy paper or even in some cases on discarded media such as junk mail. 
+
+For flashing a small device operating system, inexpensive SD cards and at least one SD card reader/writer. SD cards cost between 5 and 20 dollars. Some laptops include a card reader, they are plentiful, or they are inexpensive (less than 20 dollars) to obtain.
+
+
+Instructions for Instructor
+
+Familiarize yourself the APL Zine collection and the Zine server
+
+Make a Zine or two, add them to the server
+
+Replicate the Zine server on your own devices, such as a folder on your laptop and on a Raspberry Pi
+
+Practice making some Raspberry Pi SD cards, make some in advance pre-configured
+
+Make a Zine that explains how to make a Zine server
+
+
+Program Outline | Activities | Introductory Statement
+
+Instructor: APL Staff, Volunteer, Intern or Partner 
+
+Bryce Benton is an IT Applications Developer Senior at the Austin Public Library and a Zines and Zine server enthusiast.
+
+
+Program Instructions
+
+Demonstrate the APL Zine server by distributing a copy of the Zine server Howto: zine to each participant.
+
+Help each participant establish a testing station with the essentials: a desk bench and a place to sit, connections for electricity, network access, laptop or other computer, small device such as Raspberry Pi, and removable storage (SD cards).
+
+Introduce the students to flashing an Operating System onto an SD card, make some cards.
+
+Introduce the students to other devices that can host a Zine server, such as a folder on a laptop.
+
+Help the students install PHP and Apache2 on the Raspberry Pi or laptop
+
+Show the location of the repository for APL Zines
+
+With basics the covered, give users a prompt to replicate the Zine server
+
+Answer questions and help students clear obstacles until each participant successfully operates an adaptation of the Zine server on their own device
+
+
+Questions | Talking Points | Discussion | Modeling
+
+Ask if there are any questions and answer any that were “parked” during the session
+
+Mention this program is part of a series connected to the APL Innovate Digital Makerspace
+
+Explain the Digital Makerspace at Central and the Branches
+
+Thank participants for coming and ask them to complete the class survey before leaving
+
+Encourage participants to cultivate a sustainable community of shared and re-used resources
+
+
+Submitted by:
+
+Bryce Benton
